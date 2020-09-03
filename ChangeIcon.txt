@@ -1,0 +1,20 @@
+1. Add flutter_launcher_icons Plugin to pubspec.yaml
+
+dev_dependencies: 
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+  image_path: "icon/icon.png" 
+  android: true
+  ios: true
+
+2.Prepare an app icon for the specified path. e.g. icon/icon.png
+
+3.Execute command on the terminal to Create app icons:
+
+$ flutter pub get
+
+$ flutter pub run flutter_launcher_icons:main
