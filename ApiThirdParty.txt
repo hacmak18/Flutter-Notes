@@ -1,0 +1,18 @@
+Go to pub.dev and search for http
+
+install the http.
+
+then: import 'package:http/http.dart'
+
+http package includes get() method
+
+get method's result will be as String format looks as map<>.
+
+to convert it to map, import 'dart:convert'
+convert package include,
+jsonDecode();
+in which you can pass 
+map data = jsonDecode(response.body);
+
+youtube reference:
+https://www.youtube.com/watch?v=WdXcJdhWcEY&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=26
