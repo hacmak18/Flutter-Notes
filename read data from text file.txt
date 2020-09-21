@@ -1,0 +1,11 @@
+data= rootbundle.loadstring(FILE_PATH);
+
+In Scaffold's text widget
+
+Text(data),
+
+NOTE: use await for better result and avoid conflicts.
+
+
+youtube link:
+https://www.youtube.com/watch?v=rtS9pakm4ys&list=PLJftqVZ-OFLi3NjZk0AG5T2U59xuerhsj&index=15
