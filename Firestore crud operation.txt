@@ -1,4 +1,8 @@
 
 Best Crud tutorial:-
 
+Quick start:
 https://www.youtube.com/watch?v=lyZQa7hqoVY
+
+Detailed overview:
+https://www.youtube.com/watch?v=YZt92I2V704
