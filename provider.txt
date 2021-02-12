@@ -1,0 +1,15 @@
+Provider :
+   1. create Provider File
+   2. create Provider class with changeNotifier
+   3. intitialize variable (int _userId;)
+   4. create getter methof for the variable (int get userId => _userId;)
+   5. create setter method for that variable (setUserId(int uid){this._userId = uid;notifyListeners()})
+   6. add provider to main.dart as:
+		providers: [
+			ListenableProvider<UserDetailsProvider>(
+              create: (context) => UserDetailsProvider())
+        ],
+	//Note: while set and get the variable outside the build method then we have to use listen:false if we use directly in build method then simply pass context instead of passing the listen with it.	
+   7. To set the value of variable (Provider.of<ProviderClassName>(context, listen: false).setUserId(userData['user'][0]['userid']);)
+   8. To get the value of variable (Provider.of<UserDetailsProvider>(context, listen: false).userId;)
+          
